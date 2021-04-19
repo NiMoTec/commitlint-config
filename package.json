@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NiMoTec/commitlint-config-nimotec.git"
+    "url": "git+https://github.com/NiMoTec/commitlint-config.git"
   },
   "keywords": [],
   "author": {
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NiMoTec/commitlint-config-nimotec/issues"
+    "url": "https://github.com/NiMoTec/commitlint-config/issues"
   },
-  "homepage": "https://github.com/NiMoTec/commitlint-config-nimotec#readme",
+  "homepage": "https://github.com/NiMoTec/commitlint-config#readme",
   "dependencies": {
     "@commitlint/config-conventional": "^12.1.1"
   },
