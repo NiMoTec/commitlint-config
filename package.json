@@ -1,0 +1,39 @@
+{
+  "name": "@nimotec/commitlint-config",
+  "version": "1.0.0",
+  "description": "Shareable commitlint config enforcing conventional commits and then some",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "release": "standard-version",
+    "prepare": "husky install && npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiMoTec/commitlint-config-nimotec.git"
+  },
+  "keywords": [],
+  "author": {
+    "email": "zeferinix@gmail.com",
+    "name": "Cerino O. Ligutom III",
+    "url": "https://www.zeferinix.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NiMoTec/commitlint-config-nimotec/issues"
+  },
+  "homepage": "https://github.com/NiMoTec/commitlint-config-nimotec#readme",
+  "dependencies": {
+    "@commitlint/config-conventional": "^12.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@types/node": "^14.14.41",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "standard-version": "^9.2.0",
+    "typescript": "^4.2.4"
+  }
+}
