@@ -4,6 +4,9 @@
   "description": "Shareable commitlint config enforcing conventional commits and then some",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.js"
+  ],
   "scripts": {
     "release": "standard-version",
     "prepare": "husky install && npm run build",
