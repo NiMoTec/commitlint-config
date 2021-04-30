@@ -6,6 +6,7 @@ const configConventionalTypeEnum = configConventional.rules['type-enum'];
 const NIMOTEC_TYPES: string[] = [
   'css', // CSS Changes
   'infra', // Infra config changes
+  'wip', // Work In Progress
 ];
 
 const Configuration: UserConfig = {
