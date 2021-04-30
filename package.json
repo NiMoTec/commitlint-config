@@ -1,6 +1,6 @@
 {
   "name": "@nimotec/commitlint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shareable commitlint config enforcing conventional commits and then some",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
